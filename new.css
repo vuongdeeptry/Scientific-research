@@ -19,6 +19,10 @@
     
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header__menu
 {
     margin-left:110px;
@@ -29,6 +33,7 @@
 
 .header__menu-part
 {
+    position: relative;
     display:flex;
     font-family: 'Amatic SC', sans-serif;
     font-size:20px;
@@ -143,6 +148,7 @@
     transform:translateY(-40px);
     color:#fff;
     font-size:20px;
+    font-family: 'Anatic SC', cursive;
 }
 
 .header__contact
@@ -208,6 +214,21 @@
     font-size:38px;
 }
 
+.header__icon {
+    position: absolute;
+    right: 44%;
+    top: -44%;
+    font-size: 40px;
+    color:#fff;
+    padding:10px;
+}
+
+.header__icon:hover {
+    cursor:pointer;
+    opacity:0.5;
+
+}
+
 
 
 #slider
@@ -220,6 +241,7 @@
     padding-top:50%;
     margin-top:53px;
     position: relative;
+    
     
 }
 
@@ -450,8 +472,71 @@
     right:4%;
     color:#fff;
     text-shadow: 2px 2px 5px #fff;
+    font-family: 'Pacifico', cursive;
 }
 
+.content__study {
+    position: relative;
+}
+
+.content__study-img {
+    width: 100%;
+ 
+  
+    
+}
+
+.content__study-video {
+    position: absolute;
+    right: 31%;
+    top: 37%;
+}
+
+.content__study-clip{
+    
+    width: 80%;
+}
+
+.content__study-content {
+    position: absolute;
+    bottom:41%;
+    right:62%;
+    text-align: center;
+
+}
+
+.content__study-clip2 {
+    right: -89%;
+    top: -44%;
+    position: absolute;
+}
+
+.content__study-subheader {
+    font-size: 18px;
+    margin-bottom :31%;
+    color:#fff;
+}
+
+.content__study-header {
+    font-size: 30px;
+    color:#FFD501;
+    margin-bottom: 24px;
+    font-family: 'Lobster', cursive; 
+    text-shadow:2px 2px 5px #3411bd, 2px 2px 5px #4010b7;
+}
+
+.content__study-p {
+    color:#fff;
+    font-size:23px;
+    font-family: 'Pacifico', cursive;
+}
+
+.content__study-arrow {
+    position: absolute;
+    top: 27%;
+    width: 20%;
+    right: 20%;
+}
 
 #footer
 {
