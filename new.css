@@ -542,3 +542,37 @@ html {
 {
 
 }
+
+@media screen and (min-width: 720px)
+{
+    #slider .slider__started-pics::before
+    {
+        right:-16%;
+    }
+
+    .slider__content-foryou {
+        right:67%;
+    }
+
+    .slider__rightpart-body--background {
+        right:-1%;
+    }
+
+    .content__confide-2nd--content {
+        right:0;
+        bottom:34%;
+    }
+
+    .content__study-content {
+        bottom:24%;
+        
+    }
+
+    .content__study-clip {
+        width:100%;
+    }
+
+    .content__study-clip2 {
+        right:-116%;
+    }
+}
