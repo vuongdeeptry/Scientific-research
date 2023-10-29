@@ -572,6 +572,10 @@ html {
         width:100%;
     }
 
+    .content__study-clip img {
+        width:100%;
+    }
+
     .content__study-clip2 {
         right:-116%;
     }
