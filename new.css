@@ -576,6 +576,10 @@ html {
         width:100%;
     }
 
+    .content__study-video {
+        width:23%;
+    }
+
     .content__study-clip2 {
         right:-116%;
     }
